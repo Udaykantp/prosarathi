@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f8fafc" />
+    </linearGradient>
+    <linearGradient id="goldHead" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#78350f" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="#f1f5f9" />
+
+  <!-- Title Header -->
+  <rect x="50" y="25" width="1100" height="70" rx="12" fill="#0f172a" stroke="#facc15" stroke-width="1.5" />
+  <text x="600" y="55" fill="#fef08a" font-family="'Playfair Display', serif" font-size="22" font-weight="bold" text-anchor="middle">
+    RG's Pleiaddes — Unit Floor Plans &amp; Configurations
+  </text>
+  <text x="600" y="78" fill="#94a3b8" font-family="sans-serif" font-size="12" text-anchor="middle">
+    Thoughtfully Engineered 7-Star Layouts with Expansive Balconies &amp; Ample Sunlight
+  </text>
+
+  <!-- 3 Configuration Comparison Cards -->
+  <!-- Card 1: Type - 1 (3 BHK + 2 Toilet) -->
+  <g transform="translate(50, 115)">
+    <rect width="350" height="525" rx="14" fill="url(#cardGrad)" stroke="#cbd5e1" stroke-width="2" />
+    <!-- Header -->
+    <path d="M 0 14 Q 0 0 14 0 L 336 0 Q 350 0 350 14 L 350 75 L 0 75 Z" fill="url(#goldHead)" />
+    <text x="175" y="32" fill="#fef08a" font-size="16" font-weight="bold" font-family="sans-serif" text-anchor="middle">TYPE - 1</text>
+    <text x="175" y="55" fill="#ffffff" font-size="14" font-weight="600" font-family="sans-serif" text-anchor="middle">3 BHK + 2 TOILET</text>
+    <text x="175" y="70" fill="#fde047" font-size="11" font-family="sans-serif" text-anchor="middle">TOWER - 01 &amp; 02</text>
+
+    <!-- Schematic Diagram -->
+    <g transform="translate(30, 95)" stroke="#334155" stroke-width="1.5" fill="#e2e8f0">
+      <!-- Living/Dining -->
+      <rect x="10" y="40" width="120" height="100" fill="#fef3c7" /><text x="70" y="95" fill="#78350f" font-size="10" font-weight="bold" text-anchor="middle">Drawing / Dining<tspan x="70" dy="14">15'-9" x 10'-7"</tspan></text>
+      <!-- Kitchen -->
+      <rect x="10" y="145" width="80" height="60" fill="#dcfce7" /><text x="50" y="178" fill="#14532d" font-size="9" text-anchor="middle">Kitchen<tspan x="50" dy="12">8'-0" x 5'-6"</tspan></text>
+      <!-- Master Bedroom -->
+      <rect x="140" y="10" width="140" height="90" fill="#e0f2fe" /><text x="210" y="55" fill="#0369a1" font-size="10" font-weight="bold" text-anchor="middle">Master Bedroom<tspan x="210" dy="14">10'-6" x 11'-10"</tspan></text>
+      <!-- Bedroom 2 -->
+      <rect x="140" y="105" width="140" height="80" fill="#e0f2fe" /><text x="210" y="145" fill="#0369a1" font-size="10" font-weight="bold" text-anchor="middle">Bedroom 2<tspan x="210" dy="14">10'-0" x 10'-1"</tspan></text>
+      <!-- Bedroom 3 -->
+      <rect x="10" y="10" width="120" height="25" fill="#ede9fe" /><text x="70" y="26" fill="#5b21b6" font-size="9" text-anchor="middle">Balconies (5'-0" Wide)</text>
+    </g>
+
+    <!-- Area Details Table -->
+    <g transform="translate(25, 330)">
+      <rect width="300" height="40" rx="6" fill="#f1f5f9" />
+      <text x="15" y="25" fill="#64748b" font-size="12">Carpet Area</text>
+      <text x="285" y="25" fill="#0f172a" font-size="13" font-weight="bold" text-anchor="end">679 Sq.Ft (63.08 Sq.M)</text>
+
+      <rect y="48" width="300" height="40" rx="6" fill="#f1f5f9" />
+      <text x="15" y="73" fill="#64748b" font-size="12">Built-Up Area</text>
+      <text x="285" y="73" fill="#0f172a" font-size="13" font-weight="bold" text-anchor="end">931 Sq.Ft (86.52 Sq.M)</text>
+
+      <rect y="96" width="300" height="50" rx="6" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5" />
+      <text x="15" y="127" fill="#78350f" font-size="13" font-weight="bold">TOTAL SUPER AREA</text>
+      <text x="285" y="127" fill="#b45309" font-size="16" font-weight="bold" text-anchor="end">1276 Sq.Ft</text>
+      <text x="285" y="142" fill="#92400e" font-size="10" text-anchor="end">(118.52 Sq.M)</text>
+    </g>
+  </g>
+
+  <!-- Card 2: Type - 2 (3 BHK + 3 Toilet) -->
+  <g transform="translate(425, 115)">
+    <rect width="350" height="525" rx="14" fill="url(#cardGrad)" stroke="#0284c7" stroke-width="2.5" />
+    <path d="M 0 14 Q 0 0 14 0 L 336 0 Q 350 0 350 14 L 350 75 L 0 75 Z" fill="#0284c7" />
+    <text x="175" y="32" fill="#ffffff" font-size="16" font-weight="bold" font-family="sans-serif" text-anchor="middle">TYPE - 2 (POPULAR)</text>
+    <text x="175" y="55" fill="#fef08a" font-size="14" font-weight="600" font-family="sans-serif" text-anchor="middle">3 BHK + 3 TOILET</text>
+    <text x="175" y="70" fill="#bae6fd" font-size="11" font-family="sans-serif" text-anchor="middle">TOWER - 03 &amp; 04</text>
+
+    <!-- Schematic Diagram -->
+    <g transform="translate(30, 95)" stroke="#334155" stroke-width="1.5" fill="#e2e8f0">
+      <rect x="10" y="40" width="130" height="100" fill="#fef3c7" /><text x="75" y="95" fill="#78350f" font-size="10" font-weight="bold" text-anchor="middle">Drawing / Dining<tspan x="75" dy="14">18'-6" x 11'-0"</tspan></text>
+      <rect x="10" y="145" width="90" height="60" fill="#dcfce7" /><text x="55" y="178" fill="#14532d" font-size="9" text-anchor="middle">Kitchen<tspan x="55" dy="12">9'-1" x 7'-0"</tspan></text>
+      <rect x="150" y="10" width="135" height="90" fill="#e0f2fe" /><text x="215" y="55" fill="#0369a1" font-size="10" font-weight="bold" text-anchor="middle">Master Bedroom<tspan x="215" dy="14">11'-0" x 13'-0"</tspan></text>
+      <rect x="150" y="105" width="135" height="80" fill="#e0f2fe" /><text x="215" y="145" fill="#0369a1" font-size="10" font-weight="bold" text-anchor="middle">Bedroom 2 &amp; 3<tspan x="215" dy="14">3 En-Suite Toilets</tspan></text>
+    </g>
+
+    <!-- Area Details Table -->
+    <g transform="translate(25, 330)">
+      <rect width="300" height="40" rx="6" fill="#f1f5f9" />
+      <text x="15" y="25" fill="#64748b" font-size="12">Carpet Area</text>
+      <text x="285" y="25" fill="#0f172a" font-size="13" font-weight="bold" text-anchor="end">871 Sq.Ft (80.89 Sq.M)</text>
+
+      <rect y="48" width="300" height="40" rx="6" fill="#f1f5f9" />
+      <text x="15" y="73" fill="#64748b" font-size="12">Built-Up Area</text>
+      <text x="285" y="73" fill="#0f172a" font-size="13" font-weight="bold" text-anchor="end">1147 Sq.Ft (106.60 Sq.M)</text>
+
+      <rect y="96" width="300" height="50" rx="6" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5" />
+      <text x="15" y="127" fill="#0369a1" font-size="13" font-weight="bold">TOTAL SUPER AREA</text>
+      <text x="285" y="127" fill="#0284c7" font-size="16" font-weight="bold" text-anchor="end">1572 Sq.Ft</text>
+      <text x="285" y="142" fill="#0369a1" font-size="10" text-anchor="end">(146.02 Sq.M)</text>
+    </g>
+  </g>
+
+  <!-- Card 3: Type - 3 (4 BHK + 3 Toilet) -->
+  <g transform="translate(800, 115)">
+    <rect width="350" height="525" rx="14" fill="url(#cardGrad)" stroke="#059669" stroke-width="2.5" />
+    <path d="M 0 14 Q 0 0 14 0 L 336 0 Q 350 0 350 14 L 350 75 L 0 75 Z" fill="#059669" />
+    <text x="175" y="32" fill="#ffffff" font-size="16" font-weight="bold" font-family="sans-serif" text-anchor="middle">TYPE - 3 (ULTRA LUXURY)</text>
+    <text x="175" y="55" fill="#fef08a" font-size="14" font-weight="600" font-family="sans-serif" text-anchor="middle">4 BHK + 3 TOILET</text>
+    <text x="175" y="70" fill="#a7f3d0" font-size="11" font-family="sans-serif" text-anchor="middle">TOWER - 05 &amp; 06</text>
+
+    <!-- Schematic Diagram -->
+    <g transform="translate(30, 95)" stroke="#334155" stroke-width="1.5" fill="#e2e8f0">
+      <rect x="10" y="40" width="130" height="100" fill="#fef3c7" /><text x="75" y="95" fill="#78350f" font-size="10" font-weight="bold" text-anchor="middle">Grand Living<tspan x="75" dy="14">16'-0" x 15'-6"</tspan></text>
+      <rect x="10" y="145" width="90" height="60" fill="#dcfce7" /><text x="55" y="178" fill="#14532d" font-size="9" text-anchor="middle">Large Kitchen<tspan x="55" dy="12">8'-0" x 11'-6"</tspan></text>
+      <rect x="150" y="10" width="135" height="90" fill="#e0f2fe" /><text x="215" y="55" fill="#0369a1" font-size="10" font-weight="bold" text-anchor="middle">Master Suite<tspan x="215" dy="14">11'-6" x 15'-6" + Dress</tspan></text>
+      <rect x="150" y="105" width="135" height="80" fill="#e0f2fe" /><text x="215" y="145" fill="#0369a1" font-size="10" font-weight="bold" text-anchor="middle">Bedrooms 2, 3, 4<tspan x="215" dy="14">Wrap-around Balconies</tspan></text>
+    </g>
+
+    <!-- Area Details Table -->
+    <g transform="translate(25, 330)">
+      <rect width="300" height="40" rx="6" fill="#f1f5f9" />
+      <text x="15" y="25" fill="#64748b" font-size="12">Carpet Area</text>
+      <text x="285" y="25" fill="#0f172a" font-size="13" font-weight="bold" text-anchor="end">1159 Sq.Ft (107.64 Sq.M)</text>
+
+      <rect y="48" width="300" height="40" rx="6" fill="#f1f5f9" />
+      <text x="15" y="73" fill="#64748b" font-size="12">Built-Up Area</text>
+      <text x="285" y="73" fill="#0f172a" font-size="13" font-weight="bold" text-anchor="end">1595 Sq.Ft (148.16 Sq.M)</text>
+
+      <rect y="96" width="300" height="50" rx="6" fill="#d1fae5" stroke="#059669" stroke-width="1.5" />
+      <text x="15" y="127" fill="#065f46" font-size="13" font-weight="bold">TOTAL SUPER AREA</text>
+      <text x="285" y="127" fill="#059669" font-size="16" font-weight="bold" text-anchor="end">2185 Sq.Ft</text>
+      <text x="285" y="142" fill="#047857" font-size="10" text-anchor="end">(202.95 Sq.M)</text>
+    </g>
+  </g>
+</svg>

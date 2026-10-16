@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7" />
+      <stop offset="100%" stop-color="#f5efe6" />
+    </linearGradient>
+    <linearGradient id="podiumGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dcfce7" />
+      <stop offset="100%" stop-color="#bbf7d0" />
+    </linearGradient>
+    <linearGradient id="waterBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="towerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa" />
+      <stop offset="100%" stop-color="#fdba74" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bgGrad)" />
+
+  <!-- Surrounding Roads -->
+  <!-- 24 M Wide Road on Left -->
+  <rect x="20" y="20" width="70" height="580" fill="#94a3b8" rx="4" />
+  <text x="55" y="320" fill="#ffffff" font-size="13" font-weight="bold" font-family="sans-serif" transform="rotate(-90 55 320)" text-anchor="middle" letter-spacing="3">24 M. WIDE ROAD</text>
+  
+  <!-- 12 M Wide Road at Bottom -->
+  <rect x="20" y="605" width="1160" height="45" fill="#94a3b8" rx="4" />
+  <text x="600" y="632" fill="#ffffff" font-size="13" font-weight="bold" font-family="sans-serif" text-anchor="middle" letter-spacing="3">12 M. WIDE ROAD (MAIN ENTRY &amp; EXIT)</text>
+
+  <!-- 12 M Wide Road at Right -->
+  <rect x="1110" y="20" width="70" height="580" fill="#94a3b8" rx="4" />
+  <text x="1145" y="320" fill="#ffffff" font-size="13" font-weight="bold" font-family="sans-serif" transform="rotate(90 1145 320)" text-anchor="middle" letter-spacing="3">12 M. WIDE ROAD</text>
+
+  <!-- Main Site Plot Boundary / Podium -->
+  <polygon points="110,35 1090,35 1090,595 110,595" fill="url(#podiumGreen)" stroke="#16a34a" stroke-width="3" rx="16" />
+
+  <!-- Commercial Complex (RG Square) on Left -->
+  <g>
+    <rect x="125" y="160" width="60" height="260" rx="6" fill="#fbcfe8" stroke="#db2777" stroke-width="2" />
+    <text x="155" y="290" fill="#9d174d" font-size="11" font-weight="bold" font-family="sans-serif" transform="rotate(-90 155 290)" text-anchor="middle">RG SQUARE (CONVENIENT SHOPPING)</text>
+    <!-- Commercial Drop-off badge 24 -->
+    <circle cx="155" cy="450" r="14" fill="#eab308" />
+    <text x="155" y="454" fill="#000" font-size="10" font-weight="bold" text-anchor="middle">24</text>
+  </g>
+
+  <!-- Six Towers Arranged in Constellation Arc -->
+  <!-- Tower 5: Merope -->
+  <g transform="translate(260, 95)">
+    <rect width="130" height="90" rx="8" fill="url(#towerBg)" stroke="#c2410c" stroke-width="2.5" />
+    <text x="65" y="38" fill="#7c2d12" font-size="12" font-weight="bold" font-family="sans-serif" text-anchor="middle">TOWER-5</text>
+    <text x="65" y="55" fill="#9a3412" font-size="10" font-family="sans-serif" text-anchor="middle">(MEROPE)</text>
+    <text x="65" y="74" fill="#c2410c" font-size="9" font-weight="bold" font-family="sans-serif" text-anchor="middle">4 BHK Luxury</text>
+  </g>
+
+  <!-- Tower 6: Taygete -->
+  <g transform="translate(250, 420)">
+    <rect width="130" height="90" rx="8" fill="url(#towerBg)" stroke="#c2410c" stroke-width="2.5" />
+    <text x="65" y="38" fill="#7c2d12" font-size="12" font-weight="bold" font-family="sans-serif" text-anchor="middle">TOWER-6</text>
+    <text x="65" y="55" fill="#9a3412" font-size="10" font-family="sans-serif" text-anchor="middle">(TAYGETE)</text>
+    <text x="65" y="74" fill="#c2410c" font-size="9" font-weight="bold" font-family="sans-serif" text-anchor="middle">4 BHK Luxury</text>
+  </g>
+
+  <!-- Tower 4: Maia -->
+  <g transform="translate(480, 70)">
+    <rect width="130" height="90" rx="8" fill="url(#towerBg)" stroke="#c2410c" stroke-width="2.5" />
+    <text x="65" y="38" fill="#7c2d12" font-size="12" font-weight="bold" font-family="sans-serif" text-anchor="middle">TOWER-4</text>
+    <text x="65" y="55" fill="#9a3412" font-size="10" font-family="sans-serif" text-anchor="middle">(MAIA)</text>
+    <text x="65" y="74" fill="#c2410c" font-size="9" font-weight="bold" font-family="sans-serif" text-anchor="middle">3 BHK (Type 2)</text>
+  </g>
+
+  <!-- Tower 3: Electra -->
+  <g transform="translate(680, 70)">
+    <rect width="130" height="90" rx="8" fill="url(#towerBg)" stroke="#c2410c" stroke-width="2.5" />
+    <text x="65" y="38" fill="#7c2d12" font-size="12" font-weight="bold" font-family="sans-serif" text-anchor="middle">TOWER-3</text>
+    <text x="65" y="55" fill="#9a3412" font-size="10" font-family="sans-serif" text-anchor="middle">(ELECTRA)</text>
+    <text x="65" y="74" fill="#c2410c" font-size="9" font-weight="bold" font-family="sans-serif" text-anchor="middle">3 BHK (Type 2)</text>
+  </g>
+
+  <!-- Tower 2: Celaeno -->
+  <g transform="translate(880, 95)">
+    <rect width="130" height="90" rx="8" fill="url(#towerBg)" stroke="#c2410c" stroke-width="2.5" />
+    <text x="65" y="38" fill="#7c2d12" font-size="12" font-weight="bold" font-family="sans-serif" text-anchor="middle">TOWER-2</text>
+    <text x="65" y="55" fill="#9a3412" font-size="10" font-family="sans-serif" text-anchor="middle">(CELAENO)</text>
+    <text x="65" y="74" fill="#c2410c" font-size="9" font-weight="bold" font-family="sans-serif" text-anchor="middle">3 BHK (Type 1)</text>
+  </g>
+
+  <!-- Tower 1: Alcyone -->
+  <g transform="translate(880, 420)">
+    <rect width="130" height="90" rx="8" fill="url(#towerBg)" stroke="#c2410c" stroke-width="2.5" />
+    <text x="65" y="38" fill="#7c2d12" font-size="12" font-weight="bold" font-family="sans-serif" text-anchor="middle">TOWER-1</text>
+    <text x="65" y="55" fill="#9a3412" font-size="10" font-family="sans-serif" text-anchor="middle">(ALCYONE)</text>
+    <text x="65" y="74" fill="#c2410c" font-size="9" font-weight="bold" font-family="sans-serif" text-anchor="middle">3 BHK (Type 1)</text>
+  </g>
+
+  <!-- Central Highlight: CLUB ASTERO & Water Complex -->
+  <g transform="translate(470, 320)">
+    <!-- Pool Complex -->
+    <rect x="0" y="0" width="340" height="60" rx="8" fill="url(#waterBlue)" stroke="#0369a1" stroke-width="2" />
+    <text x="70" y="35" fill="#ffffff" font-size="10" font-weight="bold" font-family="sans-serif">Lap Pool (7)</text>
+    <text x="170" y="35" fill="#ffffff" font-size="10" font-weight="bold" font-family="sans-serif">Family Pool (6)</text>
+    <text x="270" y="35" fill="#ffffff" font-size="10" font-weight="bold" font-family="sans-serif">Kids' Pool (5)</text>
+    
+    <!-- Club House Building -->
+    <rect x="30" y="70" width="280" height="85" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2.5" />
+    <text x="170" y="105" fill="#78350f" font-size="16" font-weight="bold" font-family="serif" text-anchor="middle" letter-spacing="2">CLUB (ASTERO)</text>
+    <text x="170" y="125" fill="#92400e" font-size="10" font-family="sans-serif" text-anchor="middle">Spa | Gym | Bowling | Restaurant | Indoor Pool</text>
+    <!-- Club Drop-off 22 -->
+    <circle cx="170" cy="180" r="14" fill="#eab308" />
+    <text x="170" y="184" fill="#000" font-size="10" font-weight="bold" text-anchor="middle">22</text>
+  </g>
+
+  <!-- Numbered Amenities Badges placed across podium -->
+  <!-- 1. Sitouts with Palm Court -->
+  <circle cx="830" cy="260" r="12" fill="#eab308" /><text x="830" y="264" fill="#000" font-size="9" font-weight="bold" text-anchor="middle">1</text>
+  <!-- 2. Tree Court with Sitout -->
+  <circle cx="780" cy="290" r="12" fill="#eab308" /><text x="780" y="294" fill="#000" font-size="9" font-weight="bold" text-anchor="middle">2</text>
+  <!-- 3. Tot Lot -->
+  <circle cx="780" cy="460" r="12" fill="#eab308" /><text x="780" y="464" fill="#000" font-size="9" font-weight="bold" text-anchor="middle">3</text>
+  <!-- 4. Deck -->
+  <circle cx="840" cy="335" r="12" fill="#eab308" /><text x="840" y="339" fill="#000" font-size="9" font-weight="bold" text-anchor="middle">4</text>
+  <!-- 13. Aroma Garden -->
+  <circle cx="430" cy="270" r="12" fill="#eab308" /><text x="430" y="274" fill="#000" font-size="9" font-weight="bold" text-anchor="middle">13</text>
+  <!-- 14. Reflexology Path -->
+  <circle cx="430" cy="180" r="12" fill="#eab308" /><text x="430" y="184" fill="#000" font-size="9" font-weight="bold" text-anchor="middle">14</text>
+  <!-- 16. Tennis Court -->
+  <circle cx="450" cy="45" r="12" fill="#eab308" /><text x="450" y="49" fill="#000" font-size="9" font-weight="bold" text-anchor="middle">16</text>
+  <!-- 17. Amphitheatre -->
+  <circle cx="680" cy="210" r="12" fill="#eab308" /><text x="680" y="214" fill="#000" font-size="9" font-weight="bold" text-anchor="middle">17</text>
+  <!-- 23. Banquet Lawn -->
+  <circle cx="440" cy="470" r="12" fill="#eab308" /><text x="440" y="474" fill="#000" font-size="9" font-weight="bold" text-anchor="middle">23</text>
+  <!-- 25. Jogging Track -->
+  <circle cx="230" cy="55" r="12" fill="#eab308" /><text x="230" y="59" fill="#000" font-size="9" font-weight="bold" text-anchor="middle">25</text>
+
+  <!-- Legend Bar at bottom -->
+  <rect x="20" y="660" width="1160" height="80" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+  <text x="35" y="682" fill="#0f172a" font-size="12" font-weight="bold" font-family="sans-serif">MASTER PLAN KEY AMENITIES:</text>
+  <text x="35" y="702" fill="#475569" font-size="10.5" font-family="sans-serif">
+    1. Sitouts with Palm Court  |  2. Tree Court  |  3. Tot Lot  |  4. Deck  |  5. Kids' Pool  |  6. Family Pool  |  7. Lap Pool  |  8. Walkway  |  9. Preteen Zone  |  10. Outdoor Gym  |  11. Pavilion with Hedge Garden  |  12. Lawn with Mound
+  </text>
+  <text x="35" y="724" fill="#475569" font-size="10.5" font-family="sans-serif">
+    13. Aroma Garden  |  14. Reflexology Path &amp; Senior Citizen Sitout  |  15. Cricket Net  |  16. Tennis Court  |  17. Amphitheatre  |  18. Sculpture Garden  |  23. Banquet Lawn  |  24. Commercial Drop-off  |  25. Jogging Track
+  </text>
+
+  <!-- Master Plan Top Title -->
+  <rect x="120" y="45" width="230" height="40" rx="8" fill="#ffffff" fill-opacity="0.9" stroke="#16a34a" stroke-width="1.5" />
+  <text x="235" y="70" fill="#15803d" font-family="'Playfair Display', serif" font-size="16" font-weight="bold" text-anchor="middle">MASTER PLAN</text>
+</svg>
